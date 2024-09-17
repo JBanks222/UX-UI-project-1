@@ -3,36 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Webpage</title>
+    <title>Black Rock City - Burning Man</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        main {
             padding: 20px;
         }
-        h1 {
-            margin: 0;
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
         }
-        p {
-            line-height: 1.6;
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .highlight {
+            font-weight: bold;
+            font-style: italic;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figure img {
+            width: 300px;
+            height: auto;
+        }
+        hr {
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Webpage</h1>
-    </header>
-    <main>
-        <p>This is a basic webpage with a header and some content. You can add more sections, images, or links as needed to expand this page.</p>
-    </main>
+
+<header>
+    <h1>Black Rock City - Burning Man</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#important-locations">Important Locations</a></li>
+        <li><a href="#photos">Photos</a></li>
+    </ul>
+</nav>
+
+<section id="location">
+    <h2>1. Where is Black Rock City and Why is it Famous?</h2>
+    <p>Black Rock City is located in the Black Rock Desert in Nevada, USA. It is famously known for hosting the annual <strong>Burning Man</strong> festival, a gathering that celebrates art, self-expression, and self-reliance. Every year, tens of thousands of people from around the world gather here to create a temporary city dedicated to community, art, and personal exploration.</p>
+    <p><abbr title="United States of America">USA</abbr></p>
+    <hr>
+</section>
+
+<section id="activities">
+    <h2>2. Activities in Black Rock City during Burning Man</h2>
+    <p>There are countless activities you can do during the <span class="highlight">Burning Man</span> festival. Here are some of the main highlights:</p>
+    <ul>
+        <li>Participating in various <strong>art installations</strong> and interactive exhibits.</li>
+        <li>Attending <strong>workshops</strong> that focus on creativity, mindfulness, and sustainability.</li>
+        <li>Enjoying <em>musical performances</em> from various genres and artists.</li>
+        <li>Taking part in the traditional <strong>burning of the Man</strong>, a key event of the festival.</li>
+    </ul>
+    <hr>
+</section>
+
+<section id="important-locations">
+    <h2>3. Important Things and Locations in Black Rock City</h2>
+    <p>Burning Man is built on 10 guiding principles, such as radical inclusion and communal effort. Below are some important locations within Black Rock City:</p>
+    <dl>
+        <dt>The Playa</dt>
+        <dd>The open area where all major art installations and activities take place.</dd>
+        <dt>The Man</dt>
+        <dd>The central art piece and symbol of the festival that is burned on the last night.</dd>
+        <dt>Center Camp</dt>
+        <dd>A huge community area for socializing, workshops, and performances.</dd>
+        <dt>Temple</dt>
+        <dd>A sacred space where participants can reflect and leave messages before it is burned.</dd>
+    </dl>
+    <hr>
+</section>
+
+<section id="photos">
+    <h2>4. Photos of Black Rock City</h2>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Burning_Man_aerial_view.jpg/640px-Burning_Man_aerial_view.jpg" alt="Aerial View of Burning Man" title="Aerial View of Black Rock City">
+        <figcaption>Aerial View of Black Rock City during Burning Man</figcaption>
+    </figure>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Burning_Man_Temple_2019.jpg/640px-Burning_Man_Temple_2019.jpg" alt="The Temple at Burning Man" title="The Temple at Burning Man">
+        <figcaption>The Temple, a central piece of Burning Man culture</figcaption>
+    </figure>
+    <hr>
+</section>
+
+<section>
+    <h2>Additional Information</h2>
+    <p>To learn more about Burning Man, visit the <a href="https://burningman.org/" target="_blank">official website</a>.</p>
+    <p>For any inquiries, feel free to <a href="mailto:info@burningman.org">email us</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Black Rock City Info | <a href="#location">Back to Top</a></p>
+</footer>
+
 </body>
 </html>
+
