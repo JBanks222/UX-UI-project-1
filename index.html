@@ -74,6 +74,10 @@
             list-style-type: disc;
             margin-left: 20px;
         }
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
         dl {
             margin-left: 20px;
         }
@@ -121,6 +125,44 @@
             border: 1px solid #e1e1e1;
             margin: 20px 0;
         }
+        .button {
+            display: inline-block;
+            background-color: #e07b39;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #d35400;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #e07b39; /* Header background color */
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        .highlight {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
     </style>
 </head>
 <body>
@@ -143,6 +185,7 @@
     <h2>1. Where is Black Rock City and Why is it Famous?</h2>
     <p>Black Rock City is located in the Black Rock Desert in Nevada, USA. It is famously known for hosting the annual <strong>Burning Man</strong> festival, a gathering that celebrates art, self-expression, and self-reliance. Every year, tens of thousands of people from around the world gather here to create a temporary city dedicated to community, art, and personal exploration.</p>
     <p><abbr title="United States of America">USA</abbr></p>
+    <p>Some people mistakenly believe that the festival is a <span class="strikethrough">temporary city</span>, but it is actually a <strong>temporary</strong> community with a unique and vibrant culture.</p>
     <hr>
 </section>
 
@@ -171,6 +214,33 @@
         <dt>Temple</dt>
         <dd>A sacred space where participants can reflect and leave messages before it is burned.</dd>
     </dl>
+    <table>
+        <caption>Important Locations Overview</caption>
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Playa</td>
+                <td>The expansive desert area where art and activities are displayed.</td>
+            </tr>
+            <tr>
+                <td>The Man</td>
+                <td>The central figure of the festival, symbolizing community and art.</td>
+            </tr>
+            <tr>
+                <td>Center Camp</td>
+                <td>The heart of Black Rock City, serving as a hub for gathering and events.</td>
+            </tr>
+            <tr>
+                <td>Temple</td>
+                <td>A reflective space where participants can leave messages and tributes.</td>
+            </tr>
+        </tbody>
+    </table>
     <hr>
 </section>
 
@@ -185,32 +255,26 @@
         <figcaption>Sky View of Black Rock City</figcaption>
     </figure>
     <figure>
-        <img src="images/Photos/soldcity.jpg" alt="Sold City View" title="Sold City View">
-        <figcaption>Sold City View</figcaption>
+        <img src="images/Photos/soldcity.jpg" alt="Sold City View" title="Sold City">
+        <figcaption>One of the many camps that call Black Rock home</figcaption>
     </figure>
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Burning_Man_aerial_view.jpg/640px-Burning_Man_aerial_view.jpg" alt="Aerial View of Burning Man" title="Aerial View of Black Rock City">
-        <figcaption>Aerial View of Black Rock City during Burning Man</figcaption>
-    </figure>
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Burning_Man_Temple_2019.jpg/640px-Burning_Man_Temple_2019.jpg" alt="The Temple at Burning Man" title="The Temple at Burning Man">
-        <figcaption>The Temple, a central piece of Burning Man culture</figcaption>
-    </figure>
+    
     <hr>
 </section>
 
 <section>
     <h2>Additional Information</h2>
-    <p>To learn more about Burning Man, visit the <a href="https://burningman.org/" target="_blank">official website</a>.</p>
-    <p>For any inquiries, feel free to <a href="mailto:info@burningman.org">email us</a>.</p>
+    <p>To learn more about Burning Man, visit the <a href="https://burningman.org/" class="button" target="_blank">Official Website</a>.</p>
+    <p>For any inquiries, feel free to <a href="mailto:info@burningman.org" class="button">Email Us</a>.</p>
 </section>
 
 <footer>
-    <p>&copy; 2024 Black Rock City Info | <a href="#location">Back to Top</a></p>
+    <p>&copy; 2024 Black Rock City Info | <a href="#location" class="button">Back to Top</a></p>
 </footer>
 
 </body>
 </html>
+
 
 
 
